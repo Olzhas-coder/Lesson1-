@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Integer.parseInt(num2.getText().toString());
         tvResult.setText("Result:" + res);
     }
+
     public void btnDivideClicked(View view){
         int res = Integer.parseInt(num1.getText().toString()) +
                 Integer.parseInt(num2.getText().toString());
